@@ -1,0 +1,157 @@
+html{
+    font-family: 'Open Sans', Arial, sans-serif;
+    box-sizing:border-box;
+  }
+  #navbar{
+    float:left;
+    position:fixed;
+    min-width: 290px;
+    top: 0px;
+    left: 0px;
+    width: 300px;
+    height: 100%;
+    border-right: solid;
+    border-color: rgba(0, 22, 22, 0.4);
+  }
+  #navbar li {
+    color: #4d4e53;
+    border-top: 2px solid;
+    list-style: none;
+    position: relative;
+    width: 100%;
+  }
+  
+  #navbar ul {
+    height: 88%;
+    padding: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+  #main-doc{
+    position: absolute;
+    margin-left: 310px;
+    padding: 20px;
+    margin-bottom: 110px;
+  }
+  
+  #navbar a{
+    display: block;
+    padding: 1px 25px;
+    color: #4d4e53;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  header{
+    text-align:center;
+    color:black;
+    margin:10px;
+    font-size: 1.8em;
+    font-weight: thin;
+  }
+  header h1{
+    margin:10px;
+  }
+  p{
+    margin-left:30px;
+    margin-right:40px;
+    color: #4d4e53;
+    text-indent: 20px;
+    letter-spacing: 2.5px;
+    text-align: justify;
+  }
+  
+  #main-doc header{
+    text-align:left;
+  }
+  #flag{
+    float:left;
+    border-radius:5px;
+    height:200px;
+    width:200px;
+    margin-left:30px;
+    margin-right:10px;
+  }
+  #flag2{
+    float:right;
+    height:370px;
+    width:290px;
+    margin-left:10px;
+    margin-right:40px;
+  }
+  a:hover{
+    background-color:rgba(101, 244, 40, 0.408);
+  }
+  #navbar li:last-child{
+    border-bottom:2px solid;
+  }
+  #his{
+    list-style: none;
+  }
+  #gran{
+    float:left;
+    height:220px;
+    width:250px;
+    margin-left:30px;
+    margin-right:10px;
+  }
+  #pre{
+    float:right;
+    height:250px;
+    width:250px;
+    margin-right:40px;
+    margin-left:10px;
+    border-radius:5px;
+  }
+  #gran1{
+    float:left;
+    height:220px;
+    width:250px;
+    border-radius:5px;
+    margin-left:30px;
+    margin-right:10px;
+  }
+  #mapa{
+    margin-right:40px;
+    margin-left:10px;
+    float:right;
+    height:360px;
+    width:300px;
+    border:1px solid;
+    border-radius:5px;
+  }
+  #city{
+    float:left;
+    height:220px;
+    width:500px;
+    border-radius:5px;
+    margin-left:30px;
+    margin-right:10px;
+  }
+  
+  #city2{
+     margin-right:40px;
+    margin-left:10px;
+    float:right;
+    height:260px;
+    width:320px;
+    border:2px solid black;
+  }
+  #linky{
+    text-decoration:none;
+    background-color:white;
+  }
+  #code{
+    margin-left:30px;
+  }
+  .random{
+    position: relative;
+    border: 1px solid;
+    width:350px;
+    margin-right:40px;
+    margin-left:20px;
+    padding-bottom:10px;
+    float:right;
+  }
+  @media (max-width: 1199px) and (min-width: 769px) {
+  
+  }
